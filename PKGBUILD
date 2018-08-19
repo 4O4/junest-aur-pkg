@@ -41,7 +41,7 @@ QEMU_LINK=$MAIN_REPO/qemu
 PKGNAME_YAOURT='yaourt'
 PKGVER_YAOURT='1.8.1'
 
-source=('junest::git+https://github.com/fsquillace/junest.git#branch=master' "https://github.com/archlinuxfr/$PKGNAME_YAOURT/releases/download/$PKGVER_YAOURT/$PKGNAME_YAOURT-$PKGVER_YAOURT.tar.xz" "$PROOT_LINK/proot-x86_64" "$PROOT_LINK/proot-x86" "$PROOT_LINK/proot-arm")
+source=('junest::git+https://github.com/4O4/junest.git#branch=master' "https://github.com/archlinuxfr/$PKGNAME_YAOURT/releases/download/$PKGVER_YAOURT/$PKGNAME_YAOURT-$PKGVER_YAOURT.tar.xz" "$PROOT_LINK/proot-x86_64" "$PROOT_LINK/proot-x86" "$PROOT_LINK/proot-arm")
 source_x86_64=("${QEMU_LINK}/x86_64/qemu-x86_64-static-x86" "${QEMU_LINK}/x86_64/qemu-x86_64-static-arm")
 source_i686=("${QEMU_LINK}/x86/qemu-x86-static-x86_64" "${QEMU_LINK}/x86/qemu-x86_64-static-arm")
 md5sums=('SKIP' '0c20b1d7b9c582b896ede30a9d95766b' '14080705dd45a6bafa20e909a68072cb' 'b1c08236b56d121e04e9e29b197d0eeb' '8218c5f00e77e2e6e04c372ced27c7e7')

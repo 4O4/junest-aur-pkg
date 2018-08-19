@@ -11,7 +11,7 @@ pkgbase = junest-git
 	depends = pacman
 	provides = junest
 	conflicts = junest
-	source = junest::git+https://github.com/fsquillace/junest.git#branch=master
+	source = junest::git+https://github.com/4O4/junest.git#branch=master
 	source = https://github.com/archlinuxfr/yaourt/releases/download/1.8.1/yaourt-1.8.1.tar.xz
 	source = https://s3-eu-west-1.amazonaws.com/junest-repo/proot/proot-x86_64
 	source = https://s3-eu-west-1.amazonaws.com/junest-repo/proot/proot-x86
